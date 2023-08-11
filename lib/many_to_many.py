@@ -86,7 +86,7 @@ class Contract (Author, Book):
         if isinstance(value, int):
             self._royalties = value
         else:
-            raise Exception("Roya;ties must be in correct format")
+            raise Exception("Royalties must be in correct format")
     
     @classmethod  
     def contracts_by_date(cls):
